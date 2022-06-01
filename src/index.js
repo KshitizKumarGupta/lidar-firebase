@@ -6,15 +6,26 @@ import { getDatabase, onValue, ref, set, remove } from 'firebase/database'
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
-    apiKey: "AIzaSyBwGFg4UY6XZ5xDC13woCNtewyxFB6Fpd0",
-    authDomain: "lidar-fb-ea546.firebaseapp.com",
-    projectId: "lidar-fb-ea546",
-    storageBucket: "lidar-fb-ea546.appspot.com",
-    messagingSenderId: "541212879997",
-    appId: "1:541212879997:web:b7edf2a7dc18edecb89514",
-    databaseURL: "https://lidar-fb-ea546-default-rtdb.asia-southeast1.firebasedatabase.app/"
-};  
+
+  apiKey: "AIzaSyBrOpCdx8VNhDe2dixpscVYRLWdD4v9oVQ",
+
+  authDomain: "lidar-firebase.firebaseapp.com",
+
+  projectId: "lidar-firebase",
+
+  storageBucket: "lidar-firebase.appspot.com",
+
+  messagingSenderId: "1019625614127",
+
+  appId: "1:1019625614127:web:95f44aa62de276771b8fda",
+
+  measurementId: "G-42B1Z0T5M4"
+
+};
+
 
 // global vars
 let unsubRoom;
