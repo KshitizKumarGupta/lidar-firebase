@@ -1,6 +1,5 @@
 # Documentation for `lidar-firebase`(Client-Server Communication)
 
-_Written By: Harish Rohan Kambhampaty (UntitledError-09, harishrohank@gmail.com)_
 
 This is part of the **LiDAR Data Streaming** Project developed at TiHAN, IIT-H
 
